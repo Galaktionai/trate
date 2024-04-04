@@ -1,7 +1,178 @@
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Regular.woff2') format('woff2'), url('../fonts/OpenSans-Regular.woff') format('woff');
+	font-weight: 1;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Italic.woff2') format('woff2'), url('../fonts/OpenSans-Italic.woff') format('woff');
+	font-weight: 1;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Light.woff2') format('woff2'), url('../fonts/OpenSans-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-LightItalic.woff2') format('woff2'), url('../fonts/OpenSans-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Regular.woff2') format('woff2'), url('../fonts/OpenSans-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Italic.woff2') format('woff2'), url('../fonts/OpenSans-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Medium.woff2') format('woff2'), url('../fonts/OpenSans-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-MediumItalic.woff2') format('woff2'), url('../fonts/OpenSans-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-SemiBold.woff2') format('woff2'), url('../fonts/OpenSans-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-SemiBoldItalic.woff2') format('woff2'), url('../fonts/OpenSans-SemiBoldItalic.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Bold.woff2') format('woff2'), url('../fonts/OpenSans-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-BoldItalic.woff2') format('woff2'), url('../fonts/OpenSans-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-ExtraBold.woff2') format('woff2'), url('../fonts/OpenSans-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-ExtraBoldItalic.woff2') format('woff2'), url('../fonts/OpenSans-ExtraBoldItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+}
+
+
+
+
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro-Light.eot);
+  src: url(../fonts/GothamPro-Light.woff2) format("woff2"),url(../fonts/GothamPro-Light.woff) format("woff"),url(../fonts/GothamPro-Light.ttf) format("truetype"),url(../fonts/GothamPro-Light.svg#GothamPro-Light) format("svg"),url(../fonts/GothamPro-Light.eot?#iefix) format("embedded-opentype");
+  font-weight: 100;
+  font-style: normal
+}
+
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro-LightItalic.eot);
+  src: url(../fonts/GothamPro-LightItalic.woff2) format("woff2"),url(../fonts/GothamPro-LightItalic.woff) format("woff"),url(../fonts/GothamPro-LightItalic.ttf) format("truetype"),url(../fonts/GothamPro-LightItalic.svg#GothamPro-LightItalic) format("svg"),url(../fonts/GothamPro-LightItalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 100;
+  font-style: italic
+}
+
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro.eot);
+  src: url(../fonts/GothamPro.woff2) format("woff2"),url(../fonts/GothamPro.woff) format("woff"),url(../fonts/GothamPro.ttf) format("truetype"),url(../fonts/GothamPro.svg#GothamPro) format("svg"),url(../fonts/GothamPro.eot?#iefix) format("embedded-opentype");
+  font-weight: 200;
+  font-style: normal
+}
+
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro-Italic.eot);
+  src: url(../fonts/GothamPro-Italic.woff2) format("woff2"),url(../fonts/GothamPro-Italic.woff) format("woff"),url(../fonts/GothamPro-Italic.ttf) format("truetype"),url(../fonts/GothamPro-Italic.svg#GothamPro-Italic) format("svg"),url(../fonts/GothamPro-Italic.eot?#iefix) format("embedded-opentype");
+  font-weight: 200;
+  font-style: italic
+}
+
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro-Medium.eot);
+  src: url(../fonts/GothamPro-Medium.woff2) format("woff2"),url(../fonts/GothamPro-Medium.woff) format("woff"),url(../fonts/GothamPro-Medium.ttf) format("truetype"),url(../fonts/GothamPro-Medium.svg#GothamPro-Medium) format("svg"),url(../fonts/GothamPro-Medium.eot?#iefix) format("embedded-opentype");
+  font-weight: 400;
+  font-style: normal
+}
+
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro-MediumItalic.eot);
+  src: url(../fonts/GothamPro-MediumItalic.woff2) format("woff2"),url(../fonts/GothamPro-MediumItalic.woff) format("woff"),url(../fonts/GothamPro-MediumItalic.ttf) format("truetype"),url(../fonts/GothamPro-MediumItalic.svg#GothamPro-MediumItalic) format("svg"),url(../fonts/GothamPro-MediumItalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 400;
+  font-style: italic
+}
+
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro-Bold.eot);
+  src: url(../fonts/GothamPro-Bold.woff2) format("woff2"),url(../fonts/GothamPro-Bold.woff) format("woff"),url(../fonts/GothamPro-Bold.ttf) format("truetype"),url(../fonts/GothamPro-Bold.svg#GothamPro-Bold) format("svg"),url(../fonts/GothamPro-Bold.eot?#iefix) format("embedded-opentype");
+  font-weight: 600;
+  font-style: normal
+}
+
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro-BoldItalic.eot);
+  src: url(../fonts/GothamPro-BoldItalic.woff2) format("woff2"),url(../fonts/GothamPro-BoldItalic.woff) format("woff"),url(../fonts/GothamPro-BoldItalic.ttf) format("truetype"),url(../fonts/GothamPro-BoldItalic.svg#GothamPro-BoldItalic) format("svg"),url(../fonts/GothamPro-BoldItalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 600;
+  font-style: italic
+}
+
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro-Black.eot);
+  src: url(../fonts/GothamPro-Black.woff2) format("woff2"),url(../fonts/GothamPro-Black.woff) format("woff"),url(../fonts/GothamPro-Black.ttf) format("truetype"),url(../fonts/GothamPro-Black.svg#GothamPro-Black) format("svg"),url(../fonts/GothamPro-Black.eot?#iefix) format("embedded-opentype");
+  font-weight: 800;
+  font-style: normal
+}
+
+@font-face {
+  font-family: GothamPro;
+  src: url(../fonts/GothamPro-BlackItalic.eot);
+  src: url(../fonts/GothamPro-BlackItalic.woff2) format("woff2"),url(../fonts/GothamPro-BlackItalic.woff) format("woff"),url(../fonts/GothamPro-BlackItalic.ttf) format("truetype"),url(../fonts/GothamPro-BlackItalic.svg#GothamPro-BlackItalic) format("svg"),url(../fonts/GothamPro-BlackItalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 800;
+  font-style: italic
+}
+
+
+
+
+
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  font-family: sans-serif;
 }
 
 body {
@@ -29,10 +200,11 @@ summary {
 }
 
 header{
-  position: fixed;
   width: 100%;
   background-color: white;
   z-index: 150;
+  position: absolute;
+  overflow: hidden;
 }
 
 audio,
@@ -60,6 +232,10 @@ a {
 a:active,
 a:hover {
   outline: 0;
+}
+
+.footer_nav__two__title__img{
+  display: none;
 }
 
 abbr[title] {
@@ -126,7 +302,6 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace;
   font-size: 1em;
 }
 
@@ -268,13 +443,14 @@ html {
 }
 
 body {
-  color: #333;
   background-color: #fff;
   min-height: 100%;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans';
   font-size: 14px;
   line-height: 20px;
+  font-weight: 400;
+	font-style: normal;
 }
 
 img {
@@ -349,7 +525,6 @@ pre.w-code-block code {
   box-shadow: none;
   opacity: 1;
   direction: ltr;
-  font-family: inherit;
   font-weight: inherit;
   color: inherit;
   font-size: inherit;
@@ -952,7 +1127,6 @@ textarea.w-select {
 .w-widget-twitter-count-shim .w-widget-twitter-count-inner {
   text-align: center;
   color: #999;
-  font-family: serif;
   font-size: 15px;
   line-height: 12px;
   position: relative;
@@ -1196,7 +1370,7 @@ textarea.w-select {
   box-shadow: none;
 }
 
-.modal-order-call, .modal-order-call-succes{
+.modal-order-call, .modal-order-call-succes, .modal_detail_info{
   position: absolute;
   height: 100vh;
   top: 0;
@@ -1239,6 +1413,63 @@ textarea.w-select {
   position: absolute;
   width: 50%;
   right: 0;
+}
+
+.modal_detail_info__wrap{
+  box-shadow: 0px 0px 100px 0px black;
+
+  background-color: white;
+  display: block;
+  padding: 61px 103px;
+  height: 100%;
+  position: absolute;
+  width: 50%;
+  right: 0;
+  overflow-y: scroll;
+}
+
+.modal_detail_info.active{
+  position: fixed;
+  display: block;
+  opacity: 1;
+
+  @starting-style {
+    opacity: 0;
+  }
+}
+
+.modal_detail_info__txt{
+  max-width: 430px;
+  color: #42454A;
+}
+
+.modal_detail_info__txt__title{
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-bottom: 20px;
+  display: block;
+  letter-spacing: 0.5px;
+}
+
+.modal_detail_info__txt__p{
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 40px;
+}
+
+.modal_detail_info__txt__ul_title{
+  font-size: 16px;
+  line-height: 22px;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.modal_detail_info__txt ul{
+  padding-left: 22px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .modal-order-call__wrap__form{
@@ -1343,9 +1574,11 @@ textarea.w-select {
   display: block;
   width: 100%;
   transition: all 0.3s;
+  background-color: #000;
+  opacity: 0.3;
 }
 
-.call__wrap__exit{
+.call__wrap__exit, .modal_detail__exit{
   width: 17px;
   height: 17px;
   display: block;
@@ -1357,7 +1590,7 @@ textarea.w-select {
   justify-content: center;
 }
 
-.call__wrap__exit::after{
+.call__wrap__exit::after, .modal_detail__exit::after{
   width: 16px;
   height: 2px;
   content: '';
@@ -1366,7 +1599,7 @@ textarea.w-select {
   background-color: #000;
 }
 
-.call__wrap__exit::before{
+.call__wrap__exit::before, .modal_detail__exit::before{
   width: 16px;
   height: 2px;
   content: '';
@@ -1482,7 +1715,6 @@ textarea.w-select {
   -webkit-tap-highlight-color: transparent;
   background: rgba(0, 0, 0, .9);
   outline: 0;
-  font-family: Helvetica Neue, Helvetica, Ubuntu, Segoe UI, Verdana, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 300;
@@ -2200,7 +2432,6 @@ a {
   background-color: #101626;
   padding-left: 72px;
   padding-right: 72px;
-  font-family: Open Sans, sans-serif;
   font-size: 18px;
   line-height: 28px;
   position: relative;
@@ -2215,7 +2446,6 @@ a {
   border-radius: 5px;
   justify-content: center;
   padding: 13px 24px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -2371,7 +2601,6 @@ a {
   width: 100%;
   height: 100%;
   padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 18px;
   line-height: 20px;
   transition: color .3s;
@@ -2424,17 +2653,11 @@ a {
   background-color: var(--elements-webflow-library--neutral--100);
   padding-top: 6px;
   padding-bottom: 6px;
-  font-family: Open Sans, sans-serif;
   box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
-}
-
-.body {
-  font-family: Open Sans, sans-serif;
 }
 
 .text-block {
   padding-right: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 15px;
 }
 
@@ -2495,7 +2718,6 @@ a {
 
 .roott-card {
   background-color: #f1f1f3;
-  height: 207px;
   padding: 0;
   text-decoration: none;
   display: block;
@@ -2705,7 +2927,6 @@ a {
   border-radius: 48px;
   justify-content: center;
   padding: 26px 38px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -2764,7 +2985,6 @@ a {
   color: #f1f1f3;
   width: 294px;
   margin-bottom: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 18px;
   line-height: 26px;
 }
@@ -2843,7 +3063,6 @@ a {
   align-items: center;
   margin-top: 30px;
   margin-bottom: 20px;
-  margin-left: 100px;
   display: flex;
   position: absolute;
 }
@@ -2882,7 +3101,6 @@ a {
   border-radius: 5px;
   justify-content: center;
   padding: 13px 24px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 18px;
@@ -3061,7 +3279,6 @@ a {
   justify-content: center;
   margin-top: 8px;
   padding: 13px 60px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -3084,7 +3301,6 @@ a {
   border-radius: 48px;
   justify-content: center;
   padding: 26px 38px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -3100,7 +3316,6 @@ a {
 
 .brix---paragraph-default-2 {
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   line-height: 20px;
 }
@@ -3117,7 +3332,6 @@ a {
   color: var(--black);
   margin-top: 0;
   margin-bottom: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 22px;
   font-weight: 700;
   line-height: 28px;
@@ -3133,7 +3347,7 @@ a {
 
 .brix---product-card-content {
   text-align: center;
-  padding: 12px;
+  padding: 10px 20px 12px;
 }
 
 .brix---badge-secondary-small-bold {
@@ -3182,7 +3396,9 @@ a {
   height: 100%;
   margin-left: auto;
   text-decoration: none;
-  transition: transform .3s;
+  transition: all .3s;
+  padding-top: 20px;
+  padding-bottom: 8px;
 }
 
 .brix---product-card-wrapper-v1:hover {
@@ -3205,9 +3421,8 @@ a {
 .brix---heading-h1-size {
   margin-top: 0;
   margin-bottom: 16px;
-  font-family: Open Sans, sans-serif;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 30px;
 }
 
@@ -3350,7 +3565,6 @@ a {
 }
 
 .product-wrapper {
-  grid-column-gap: 40px;
   grid-row-gap: 40px;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
@@ -3361,6 +3575,7 @@ a {
 
 .s-product {
   margin: 0 0% 80px 0;
+  position: relative;
 }
 
 .c1 {
@@ -3382,11 +3597,12 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 26px;
+  font-weight: 600;
 }
 
 .pproduct-lwtx {
   text-align: right;
-  margin-top: 12px;
+  margin-top: 6px;
   font-size: 16px;
   font-weight: 300;
 }
@@ -3416,8 +3632,8 @@ a {
 .product-info-block {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
   display: flex;
 }
 
@@ -3439,7 +3655,6 @@ a {
   border-radius: 5px;
   justify-content: center;
   padding: 10px;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 18px;
@@ -3464,9 +3679,10 @@ a {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-top: 13px;
+  margin-bottom: 39px;
   display: grid;
+  max-width: 457px;
 }
 
 .btn-buy {
@@ -3479,7 +3695,6 @@ a {
   width: 240px;
   margin-top: 16px;
   padding: 13px 60px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -3523,7 +3738,7 @@ a {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 21px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .rec-a {
@@ -3568,7 +3783,6 @@ a {
 .brix---paragraph-l {
   color: #f1f1f3;
   margin-bottom: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 23px;
   font-weight: 600;
   line-height: 30px;
@@ -3611,7 +3825,6 @@ a {
   justify-content: center;
   margin-top: 0;
   padding: 13px 60px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -3637,7 +3850,6 @@ a {
   margin-top: 12px;
   margin-right: 60px;
   padding: 10px;
-  font-family: Open Sans, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 18px;
@@ -3648,7 +3860,6 @@ a {
 
 .btn-filter-b:hover {
   background-color: #f5f5f5;
-  display: flex;
   transform: translate3d(0, 0, .01px);
 }
 
@@ -3668,7 +3879,6 @@ a {
 
 .brix---paragraph-default-3 {
   margin-bottom: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 18px;
   line-height: 30px;
 }
@@ -3740,7 +3950,6 @@ a {
 .brix---heading-h2-size {
   margin-top: 0;
   margin-bottom: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 38px;
   font-weight: 700;
   line-height: 50px;
@@ -3784,7 +3993,6 @@ a {
 
 .checkbox-label {
   padding-left: 10px;
-  font-family: Open Sans, sans-serif;
   font-size: 12px;
   font-weight: 400;
 }
@@ -3812,7 +4020,6 @@ a {
   align-items: center;
   margin-bottom: 5px;
   margin-left: 0;
-  font-family: Open Sans, sans-serif;
   display: flex;
 }
 
@@ -3821,11 +4028,11 @@ a {
 }
 
 .prod-brs {
-  background-color: #bcbcbc;
+  background-color: #F1F1F3;
   width: 100%;
   height: 1px;
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 17px;
+  margin-bottom: 7px;
 }
 
 .div-block-5 {
@@ -3872,9 +4079,8 @@ a {
   border-radius: 5px;
   justify-content: center;
   padding: 12px 60px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 20px;
   text-decoration: none;
   transition: background-color .3s, transform .3s, color .3s;
@@ -3894,7 +4100,6 @@ a {
   border-radius: 48px;
   justify-content: center;
   padding: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
@@ -3932,7 +4137,6 @@ a {
   justify-content: center;
   margin-top: 8px;
   padding: 13px 60px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -3971,6 +4175,11 @@ a {
   display: flex;
 }
 
+.brix---accordion-icon-wrappers img{
+  height: 16px;
+  width: 16px;
+}
+
 .brix---accordion-items {
   cursor: pointer;
   width: 100%;
@@ -3998,7 +4207,7 @@ a {
 }
 
 .du {
-  margin-top: 27px;
+  margin-top: 52px;
 }
 
 .prod-iamges {
@@ -4028,6 +4237,19 @@ a {
 
 .product-details--2 {
   margin-right: 40px;
+  margin-left: 46px;
+}
+
+.product-details::after{
+  background: #f3f3f3;
+  display: block;
+  content: '';
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .right-info-menu {
@@ -4199,7 +4421,6 @@ a {
   border-radius: 5px;
   justify-content: center;
   padding: 13px 24px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -4259,7 +4480,7 @@ a {
 
 .text-block-10 {
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 32px;
 }
 
@@ -4279,7 +4500,6 @@ a {
   margin-left: 140px;
   margin-right: 140px;
   padding: 13px 24px;
-  font-family: Open Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -4448,7 +4668,6 @@ a {
   border-radius: 5px;
   justify-content: center;
   padding: 13px 24px;
-  font-family: Open Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -4473,7 +4692,6 @@ a {
   justify-content: center;
   margin-left: 18px;
   padding: 13px 24px;
-  font-family: Open Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -4531,7 +4749,6 @@ a {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 21px;
   font-weight: 600;
   line-height: 148.9%;
@@ -4542,7 +4759,6 @@ a {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 28px;
   font-weight: 600;
   line-height: 130%;
@@ -4554,7 +4770,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 131.4%;
@@ -4595,7 +4810,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 210.4%;
@@ -4621,7 +4835,6 @@ a {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 100%;
@@ -4644,7 +4857,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 100%;
@@ -4681,7 +4893,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 108%;
@@ -4692,7 +4903,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 28px;
   font-weight: 600;
   line-height: 130%;
@@ -4713,7 +4923,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 190%;
@@ -4746,7 +4955,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 100%;
@@ -4779,7 +4987,6 @@ a {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 100%;
@@ -4802,7 +5009,6 @@ a {
   color: #222325;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 100%;
@@ -4833,7 +5039,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 108%;
@@ -4844,7 +5049,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 28px;
   font-weight: 600;
   line-height: 130%;
@@ -4865,7 +5069,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 190%;
@@ -4898,7 +5101,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 100%;
@@ -4931,7 +5133,6 @@ a {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 100%;
@@ -4954,7 +5155,6 @@ a {
   color: #222325;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 100%;
@@ -4997,7 +5197,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 600;
   line-height: 108%;
@@ -5008,9 +5207,8 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 130%;
   text-decoration: none;
 }
@@ -5029,7 +5227,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 190%;
@@ -5062,7 +5259,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 100%;
@@ -5093,9 +5289,8 @@ a {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 108%;
   text-decoration: none;
 }
@@ -5105,9 +5300,8 @@ a {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 108%;
   text-decoration: none;
 }
@@ -5118,7 +5312,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 210.4%;
@@ -5204,7 +5397,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 190%;
@@ -5228,7 +5420,6 @@ a {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 100%;
@@ -5240,7 +5431,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 28px;
   font-weight: 600;
   line-height: 130%;
@@ -5252,7 +5442,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 28px;
   font-weight: 400;
   line-height: 130%;
@@ -5281,7 +5470,6 @@ a {
   justify-content: center;
   margin-top: 0;
   padding: 13px 60px;
-  font-family: Open Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -5528,7 +5716,6 @@ a {
 .spark-section {
   width: 100%;
   padding: 176px 64px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   position: relative;
 }
 
@@ -5544,7 +5731,7 @@ a {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.4;
 }
 
@@ -5594,7 +5781,6 @@ a {
   letter-spacing: .02em;
   margin-top: 4px;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 131.4%;
@@ -5609,8 +5795,7 @@ a {
   border-radius: 5px;
   justify-content: center;
   margin-top: 0;
-  padding: 13px 60px;
-  font-family: Open Sans, sans-serif;
+  padding: 12px 60px;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -5704,7 +5889,6 @@ a {
   max-width: 550px;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 28px;
   font-weight: 600;
   line-height: 130%;
@@ -5719,9 +5903,8 @@ a {
   border-radius: 5px;
   justify-content: center;
   padding: 12px 60px;
-  font-family: Open Sans, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 18px;
   text-decoration: none;
   transition: background-color .3s, transform .3s, color .3s;
@@ -5744,9 +5927,8 @@ a {
   justify-content: center;
   margin-left: 18px;
   padding: 12px 60px;
-  font-family: Open Sans, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 18px;
   text-decoration: none;
   transition: background-color .3s, transform .3s, color .3s;
@@ -5781,7 +5963,6 @@ a {
   justify-content: center;
   min-width: 100%;
   padding: 13px 24px;
-  font-family: Open Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -5806,14 +5987,11 @@ a {
 
 .frame-1550 {
   grid-column-gap: 50px;
-  background-image: linear-gradient(109.92deg, #8b8c90, #c8cccf 49%, #c8cccf 78%, #8b8c90);
   justify-content: flex-start;
   align-items: center;
   width: 100%;
   max-width: 100%;
-  height: 720px;
-  padding-left: 102px;
-  padding-right: 102px;
+  height: 88vh;
   text-decoration: none;
   display: flex;
   overflow: hidden;
@@ -5826,6 +6004,8 @@ a {
   align-items: flex-start;
   text-decoration: none;
   display: flex;
+  z-index: 100;
+  position: relative;
 }
 
 .frame-1502 {
@@ -5843,7 +6023,7 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 140%;
   text-decoration: none;
 }
@@ -5852,7 +6032,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 140%;
@@ -5869,9 +6048,11 @@ a {
 }
 
 .old-w {
-  object-fit: cover;
-  margin-top: 100px;
-  overflow: visible;
+  object-fit: contain;
+  position: absolute;
+  right: 102px;
+  bottom: 0;
+  height: auto;
 }
 
 .s-wl-1 {
@@ -5886,7 +6067,6 @@ a {
   max-width: 945px;
   margin-top: 19px;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 210.4%;
@@ -5939,7 +6119,7 @@ a {
   justify-content: flex-start;
   align-items: flex-start;
   height: 300px;
-  padding: 35px;
+  padding: 35px 51px;
   text-decoration: none;
   display: flex;
 }
@@ -5949,7 +6129,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 210.4%;
@@ -5961,7 +6140,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 210.4%;
@@ -6005,7 +6183,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 140%;
@@ -6032,7 +6209,6 @@ a {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 28px;
   font-weight: 600;
   line-height: 108%;
@@ -6046,7 +6222,6 @@ a {
   max-width: 945px;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 210.4%;
@@ -6069,8 +6244,7 @@ a {
   border-radius: 5px;
   justify-content: center;
   margin-top: 0;
-  padding: 13px 60px;
-  font-family: Open Sans, sans-serif;
+  padding: 12px 60px;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -6119,7 +6293,6 @@ a {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 100%;
@@ -6130,7 +6303,6 @@ a {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 100%;
@@ -6158,7 +6330,6 @@ a {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 160%;
@@ -6210,7 +6381,6 @@ a {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 100%;
@@ -6221,7 +6391,6 @@ a {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 100%;
@@ -6241,9 +6410,8 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 20px;
-  font-family: Open Sans, sans-serif;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 108%;
   text-decoration: none;
 }
@@ -6287,7 +6455,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
@@ -6298,7 +6465,6 @@ a {
   color: #5d8d74;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
@@ -6339,9 +6505,8 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 20px;
-  font-family: Open Sans, sans-serif;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 108%;
   text-decoration: none;
 }
@@ -6396,7 +6561,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
@@ -6476,9 +6640,8 @@ a {
   justify-content: center;
   margin-top: 27px;
   padding: 13px 60px;
-  font-family: Open Sans, sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 18px;
   text-decoration: none;
   transition: background-color .3s, transform .3s, color .3s;
@@ -6535,7 +6698,6 @@ a {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 21px;
   font-weight: 600;
   line-height: 140%;
@@ -6602,7 +6764,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 100%;
@@ -6629,7 +6790,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 100%;
@@ -6661,9 +6821,8 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 108%;
   text-decoration: none;
 }
@@ -6683,9 +6842,8 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 28px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 108%;
   text-decoration: none;
 }
@@ -6695,7 +6853,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 210.4%;
@@ -6756,7 +6913,7 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 131.4%;
   text-decoration: none;
 }
@@ -6766,7 +6923,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 131.4%;
@@ -6778,7 +6934,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 131.4%;
@@ -6832,7 +6987,6 @@ a {
   margin-left: 0;
   margin-right: 0;
   padding: 13px 24px;
-  font-family: Open Sans, sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 18px;
@@ -6863,7 +7017,6 @@ a {
   margin-top: 8px;
   margin-bottom: 0;
   margin-left: 12px;
-  font-family: Open Sans, sans-serif;
   display: flex;
 }
 
@@ -6871,7 +7024,6 @@ a {
   color: #6b6b6b;
   width: 320px;
   padding-left: 12px;
-  font-family: Open Sans, sans-serif;
   font-size: 12px;
   font-weight: 400;
 }
@@ -6939,7 +7091,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 210.4%;
@@ -6992,9 +7143,8 @@ a {
   text-transform: undefined;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 100%;
   text-decoration: none;
 }
@@ -7010,7 +7160,6 @@ a {
   color: #42454a;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 190%;
@@ -7032,9 +7181,8 @@ a {
   text-transform: undefined;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 100%;
   text-decoration: none;
 }
@@ -7043,7 +7191,6 @@ a {
   color: #42454a;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 100%;
@@ -7075,7 +7222,6 @@ a {
   text-transform: undefined;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 24px;
   font-weight: 600;
   line-height: 100%;
@@ -7087,7 +7233,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
@@ -7130,7 +7275,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 600;
   line-height: 200%;
@@ -7142,7 +7286,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 200%;
@@ -7203,7 +7346,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 136.8%;
@@ -7215,7 +7357,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 136.8%;
@@ -7227,7 +7368,6 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 136.8%;
@@ -7269,7 +7409,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 100%;
@@ -7280,7 +7419,6 @@ a {
   color: #000;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 100%;
@@ -7393,7 +7531,6 @@ a {
   color: #fff;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Montserrat, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 100%;
@@ -7436,7 +7573,6 @@ a {
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 26px;
   font-weight: 600;
   line-height: 100%;
@@ -7449,7 +7585,6 @@ a {
   letter-spacing: .03em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 148.9%;
@@ -7465,7 +7600,6 @@ a {
   display: flex;
   max-width: 945px;
   margin: 0 auto;
-  padding: 0 16px;
 }
 
 .frame-1345-1 {
@@ -7491,14 +7625,13 @@ a {
   letter-spacing: .02em;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: Open Sans, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 136.8%;
   text-decoration: none;
 }
 
-.header__bottom__burger__btn{
+.header__bottom__burger__btn_a{
   display: none;
 }
 
@@ -7531,7 +7664,7 @@ a {
 
 
 .container{
-  max-width: 1200px;
+  max-width: 1216px;
   padding: 0 16px;
   margin: 0 auto;
 }
@@ -7570,15 +7703,20 @@ a {
 .banner_centr_study__txt_title{
   font-size: 32px;
   line-height: 38px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 30px 0;
 }
 
 .banner_centr_study__txt_p{
-  font-size: 18px;
+  font-size: 18.75px;
   line-height: 28px;
   white-space: 6px;
   margin-bottom: 30px;
+  max-width: 464px;
+}
+
+.rgrwerh{
+  opacity: 0;
 }
 
 .section_study{
@@ -7586,7 +7724,7 @@ a {
 }
 
 .section_study_h3{
-  font-weight: 500;
+  font-weight: 600;
   font-size: 32px;
   line-height: 38px;
 }
@@ -7671,6 +7809,10 @@ a {
 
 .events_detail__fixed{
   margin-top: 100px;
+}
+
+.events_detail__fixed.active{
+  position: fixed;
 }
 
 .swiper-slide {
@@ -7785,8 +7927,15 @@ a {
   display: none;
 }
 
+.vnutr_boxes{
+  position: relative;
+  overflow: hidden;
+}
+
 .banner_tipovoy{
   background-color: #F1F1F3;
+  position: relative;
+  overflow: hidden;
 }
 
 .banner_tipovoy__grid{
@@ -7796,13 +7945,20 @@ a {
 
 .banner_tipovoy__img img{
   height: 641px;
-  width: 100%;
+  width: 50%;
   object-fit: cover;
+  position: absolute;
+  height: 100%;
+}
+
+.banner_tipovoy__img.left img{
+  left: 0;
 }
 
 .banner_tipovoy__text{
   display: flex;
   align-items: center;
+  height: 88vh;
 }
 
 .banner_tipovoy__section{
@@ -7908,6 +8064,10 @@ a {
   margin-top: 10px;
 }
 
+.list_predstovitels__item__txt a{
+  color: #000000;
+}
+
 .seteficats{
   background-color: #F1F1F3;
   padding: 97px 0 172px;
@@ -7978,6 +8138,10 @@ a {
   padding: 35px;
 }
 
+.autorsSwiper.sdfewf{
+  padding-top: 121px;
+}
+
 .boxes__item:nth-child(1){
   border-bottom: 1px solid #D9D9D9;
   border-right: 1px solid #D9D9D9;
@@ -8012,7 +8176,7 @@ a {
 }
 
 .galery_one{
-  padding: 135px 0 87px;
+  padding: 143px 0 87px;
 }
 
 .galery_one__flex{
@@ -8024,15 +8188,18 @@ a {
 .galery_one__flex h4{
   width: 313px;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 38px;
   margin: 0;
+  font-family: GothamPro;
+  font-weight: 500;
 }
 
 .galery_one__flex p{
   line-height: 21px;
   font-weight: 400;
   margin: 0;
+  font-size: 16px;
 }
 
 .swiper-slide-img{
@@ -8110,6 +8277,7 @@ a {
   padding: 12px 40px;
   text-decoration: none;
   border-radius: 5px;
+  font-size: 15px;
 }
 
 .youtube{
@@ -8255,7 +8423,8 @@ a {
 .news__grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  column-gap: 20px;
+  row-gap: 34px;
 }
 
 .news__item{
@@ -8306,10 +8475,20 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  box-orient: vertical;
 }
 
 .news__item__txt{
-  padding: 17px 2px 38px 15px;
+  padding: 17px 15px 38px 15px;
 }
 
 .news__filter__adaptiv_btn{
@@ -8393,6 +8572,35 @@ a {
   line-height: 17px;
 }
 
+.implant_details_info__grid__img{
+  position: relative;
+}
+
+.implant_details_info__grid__img__div{
+  position: absolute;
+  right: 118px;
+  top: -24px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.implant_details_info__grid__img__div img{
+  width: calc(50px + 90 * (100vw - 320px) / 1000);
+  height: 100%;
+}
+
+.implant_details_info__grid__img__replace{
+  transform: scale(1) !important;
+  height: 212px;
+  display: none;
+}
+
+.implant_details_info__grid__img__replace.active{
+  z-index: 100;
+  display: block;
+}
+
 .keys_detail__info{
   position: relative;
   padding-top: 47px;
@@ -8400,8 +8608,13 @@ a {
   box-shadow: 4px 0px 20px 0px #0000001A;
 }
 
+.keys_detail__subskribe__socials img{
+  width: 32px;
+  height: 32px;
+}
+
 .container-3{
-  max-width: 821px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 16px;
 }
@@ -9011,14 +9224,24 @@ a {
 }
 
 .header__container{
-  max-width: 1376px;
+  max-width: 1360px;
   margin: 0 auto;
   padding: 0 16px;
 }
 
 .header__bottom{
-  box-shadow: 0px 0px 10px 0px #000000;
+  box-shadow: 0px 0px 24px -14px #000000;
   padding: 10px 0;
+  background-color: white;
+  width: 100%;
+  top: 39px;
+  z-index: 100;
+}
+
+.header__bottom.fixed{
+  position: fixed;
+  top: 0;
+  position: fixed;
 }
 
 .header__bottom__wrap{
@@ -9044,14 +9267,23 @@ a {
   margin: 0;
 }
 
-.header__bottom__wrap__nav li{
-  margin: 0 20px;
+.header__bottom__wrap__nav_ul li{
+  margin: 0 15px;
+  padding: 8.5px 0;
+  transition: all 0.3s;
 }
 
 .header__bottom__wrap__nav_a{
-  padding: 38px 10px;
+  padding: 40px 10px;
   text-decoration: none;
   color: #000000;
+  letter-spacing: .5px;
+  transition: all 0.3s;
+}
+
+.header__bottom__wrap__nav_ul li:hover{
+  background-color: #F1F1F3;
+  border-radius: 5px;
 }
 
 .header__bottom__wrap__right{
@@ -9077,13 +9309,16 @@ a {
   margin: 0;
   top: 117px;
   z-index: 200;
-  opacity: 0;
   transition: all 0.3s;
   display: none;
+  opacity: 0;
+  transition-duration: 0.3s;
+  transition-behavior: allow-discrete;
 }
 
 .header__bottom__wrap__nav__2_menu li{
   margin: 0;
+  padding: 0;
 }
 
 .header__bottom__wrap__nav__2_menu_a{
@@ -9099,8 +9334,12 @@ a {
 }
 
 .header__bottom__wrap__nav_ul li:hover .header__bottom__wrap__nav__2_menu{
-  opacity: 1;
   display: block;
+  opacity: 1;
+
+  @starting-style {
+    opacity: 0;
+  }
 }
 
 .footer_flex__right{
@@ -9280,7 +9519,7 @@ a {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -9295,10 +9534,16 @@ a {
   padding: 12px 60px;
   color: black;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 19px;
   text-decoration: none;
   border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.main-slider__item__btn:hover{
+  background-color: #ADD15A;
+  color: white;
 }
 
 .swiper-button-prev-main-slider{
@@ -9338,7 +9583,7 @@ a {
 }
 
 .feedback__green__txt2{
-  font-weight: 500;
+  font-weight: 600;
   font-size: 28px;
   line-height: 38px;
   margin-bottom: 25px;
@@ -9418,12 +9663,26 @@ a {
   color: #000000;
 }
 
+.resmille__icon__dark{
+  display: block;
+}
+
+.resmille__icon__white{
+  display: none;
+}
+
 .implant_details__p{
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
   color: #393C41;
   max-width: 895px;
+}
+
+.s-wwww {
+  background-image: linear-gradient(131deg, #8b8c90, #c8cccf 32%, #c8c8ca 76%, #d8d8d9 100%, #fff);
+  height: 88vh;
+  position: relative;
 }
 
 .implant_details_center__wrap{
@@ -9436,12 +9695,16 @@ a {
 
 .implant_details_center__wrap__span{
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 18px;
 }
 
+.resmile__grid__txt__adaptiv{
+  display: none;
+}
+
 .implant_details_center__wrap__title{
-  font-weight: 500;
+  font-weight: 600;
   font-size: 28px;
   line-height: 30px;
   margin: 20px 0;
@@ -9478,16 +9741,15 @@ a {
 }
 
 .implant_details_info__grid__pre{
-  font-weight: 500;
+  font-weight: 600;
   font-size: 21px;
   line-height: 31px;
 }
 
 .implant_details_info__grid__title{
-  font-weight: 500;
+  font-weight: 600;
   font-size: 28px;
   line-height: 36px;
-  font-weight: 500;
   margin: 2px 0;
 }
 
@@ -9523,6 +9785,9 @@ a {
   line-height: 34px;
   cursor: pointer;
   transition: all 0.3s;
+  color: white;
+  display: block;
+  text-decoration: none;
 }
 
 .implant_details_info__grid__txt__li:hover{
@@ -9554,8 +9819,229 @@ a {
   display: none;
 }
 
+.header__adaptiv__menu__nav__2_menu.white-bg{
+  background-color: white;
+  padding: 20px 16px;
+}
 
+.text-20.rwg{
+  line-height: 50px;
+}
 
+.resmille_boxes{
+  background-color: #F5F5F5;
+}
+
+.contacts{
+  padding: 47px 0 83px;
+}
+
+.contacts__txt{
+  max-width: 945px;
+  margin-bottom: 100px;
+}
+
+.contacts__txt__pre{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.contacts__txt__title{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 30px;
+  margin-bottom: 39px;
+}
+
+.contacts__txt__p{
+  font-size: 16px;
+  line-height: 34px;
+}
+
+.contacts__grid{
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  gap: 122px;
+  max-width: 1113px;
+}
+.contacts__grid__left__txt__title{
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 9px;
+  display: block;
+}
+.contacts__grid__left__txt__adress{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #6B6B6B;
+  display: block;
+  margin-bottom: 24px;
+}
+.contacts__grid__left__txt__mail{
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 9px;
+  display: inline-block;
+  color: #393C41;
+}
+
+.contacts__grid__left__txt__phone{
+  color: #393C41;
+  font-size: 16px;
+  line-height: 21px;
+  white-space: 0.5px;
+  text-decoration: none;
+}
+
+.contacts__grid__form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contacts__grid__form__select{
+  width: 100%;
+  display: block;
+}
+
+.contacts__grid__form__select.nice-select{
+  background-color: #F1F1F3;
+  height: 48px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.contacts__grid__form__select.nice-select .current{
+  position: relative;
+  color: #42454A;
+  top: 3px;
+}
+
+.contacts__grid__form__select .option{
+  color: #42454A;
+  font-size: 14px;
+}
+
+.contacts__grid__form__input{
+  background-color: #F1F1F3;
+  font-size: 14px;
+  color: #42454A;
+  line-height: 19px;
+  padding: 15px 20px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+}
+
+.contacts__grid__form__textarea{
+  height: 133px;
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  background-color: #F1F1F3;
+  padding: 15px 20px;
+  color: #42454A;
+  font-size: 14px;
+}
+
+.contacts__grid__form__checkbox{
+  display: flex;
+  gap: 16px;
+}
+/* Hide the default checkbox */
+.contacts__grid__form__checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.contacts__grid__form__checkbox {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border: 1px solid #606062;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.30), 0px 1px 1px rgba(0,5);
+}
+
+/* When the checkbox is checked, add a blue background */
+.contacts__grid__form__checkbox input:checked ~ .checkmark {
+  background: #6B6B6B
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.contacts__grid__form__checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.contacts__grid__form__checkbox .checkmark:after {
+  left: 4px;
+  top: 0;
+  width: 0.25em;
+  height: 0.5em;
+  border: solid white;
+  border-width: 0 0.15em 0.15em 0;
+  transform: rotate(45deg) scale(0.8);
+}
+
+.contacts__grid__form__flex{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 7px;
+  margin-bottom: 14px;
+}
+
+.contacts__grid__form__flex__txt, .contacts__grid__form__flex__txt a{
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  color: #6B6B6B;
+}
+
+.contacts__grid__form__btn{
+  background-color: #222325;
+  color: white;
+  padding: 15px 50px;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 19px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.contacts__grid__left__map div{
+  height: 277px;
+  margin-bottom: 21px;
+  border-radius: 5px;
+}
 
 
 
@@ -9590,7 +10076,6 @@ a {
   .brix---btn-primary-small-head {
       color: var(--white);
       background-color: #add15a;
-      font-family: Open Sans, sans-serif;
   }
   .brix---btn-primary-small-head:hover {
       background-color: rgba(173, 209, 90, .86);
@@ -9628,7 +10113,6 @@ a {
   .brix---paragraph-default {
       color: #f1f1f3;
       width: 280px;
-      font-family: Open Sans, sans-serif;
       font-size: 14px;
   }
   .brix---grid-footer-v5 {
@@ -9644,7 +10128,6 @@ a {
   }
   .dir {
       z-index: 4;
-      margin-left: 140px;
   }
   .link-t {
       color: #42454a;
@@ -9681,7 +10164,6 @@ a {
 
   .brix---paragraph-default-2 {
       width: 530px;
-      font-family: Open Sans, sans-serif;
       font-size: 14px;
       line-height: 20px;
   }
@@ -9724,11 +10206,9 @@ a {
       pointer-events: none;
   }
   .product-wrapper {
-      grid-column-gap: 40px;
-      grid-template-columns: 1.25fr 1fr;
+      grid-template-columns: 1fr 1fr;
   }
   .s-product {
-      background-image: linear-gradient(90deg, #f3f3f3 31%, #fff 33%);
       height: 100%;
       margin-right: 0;
       padding-left: 0;
@@ -9745,7 +10225,7 @@ a {
   .prod-crd {
       justify-content: center;
       align-items: center;
-      height: 740px;
+      height: 88vh;
       padding: 10px;
       display: flex;
       position: relative;
@@ -9798,7 +10278,6 @@ a {
   .brix---paragraph-l {
       color: #f1f1f3;
       margin-bottom: 6px;
-      font-family: Open Sans, sans-serif;
       font-size: 23px;
       font-weight: 600;
   }
@@ -9851,7 +10330,6 @@ a {
   .brix---btn-primary-small-inh {
       color: var(--black);
       background-color: #fff;
-      font-family: Open Sans, sans-serif;
   }
   .brix---btn-primary-small-inh:hover {
       background-color: rgba(173, 209, 90, .86);
@@ -9887,7 +10365,6 @@ a {
   .brix---btn-primary-small-in-slider {
       color: var(--black);
       background-color: #fff;
-      font-family: Open Sans, sans-serif;
   }
   .brix---btn-primary-small-in-slider:hover {
       background-color: rgba(173, 209, 90, .86);
@@ -9898,7 +10375,6 @@ a {
   .form-btn-black {
       color: var(--white);
       background-color: #000;
-      font-family: Open Sans, sans-serif;
   }
   .form-btn-black:hover {
       background-color: rgba(255, 255, 255, .86);
@@ -9947,45 +10423,27 @@ a {
       color: #96979f;
       font-size: 14px;
   }
-  .btn-main-g {
-      font-family: Open Sans, sans-serif;
-  }
   .btn-main-g:hover {
       background-color: rgba(173, 209, 90, .86);
-  }
-  .btn-main-t {
-      font-family: Open Sans, sans-serif;
   }
   .frame-1234 {
       margin-top: 100px;
   }
   .btn-more-b {
       margin-top: 0;
-      padding: 12px 40px;
   }
   .tsti-1 {
       margin-top: 24px;
   }
-  .btn-more-b1 {
-      margin-top: 0;
-      padding: 12px 40px;
-  }
   .le12 {
       margin-bottom: 0;
-  }
-  .btn-main-gs {
-      font-family: Open Sans, sans-serif;
   }
   .btn-main-gs:hover {
       background-color: rgba(173, 209, 90, .86);
   }
-  .btn-main-ts {
-      font-family: Open Sans, sans-serif;
-  }
   .v-kors {
       color: var(--white);
       background-color: #add15a;
-      font-family: Open Sans, sans-serif;
   }
   .v-kors:hover {
       background-color: rgba(173, 209, 90, .86);
@@ -9996,9 +10454,6 @@ a {
   }
   .old-w {
       margin-top: 100px;
-  }
-  .s-wwww {
-      background-image: linear-gradient(131deg, #8b8c90, #c8cccf 32%, #c8c8ca 76%, #d8d8d9 100%, #fff);
   }
   .btn-more-b11 {
       margin-top: 0;
@@ -10032,7 +10487,6 @@ a {
   .form-btn-black-con {
       color: var(--white);
       background-color: #000;
-      font-family: Open Sans, sans-serif;
   }
   .form-btn-black-con:hover {
       background-color: rgba(255, 255, 255, .86);
@@ -10096,46 +10550,10 @@ a {
   .s-rootts{
     display: none;
   }
-  .header__bottom__wrap__nav{
-    display: none;
-  }
-
-  .header__bottom__wrap__center__number{
-    display: none;
-  }
-
-  .header__bottom__burger__btn{
-    display: block;
-    height: 2px;
-    border-radius: 2px;
-    width: 22px;
-    background-color: #000;
-  }
-
-  .header__bottom__burger__btn::after{
-    content: '';
-    display: block;
-    height: 2px;
-    border-radius: 2px;
-    width: 22px;
-    background-color: #000;
-    position: relative;
-    top: 6px;
-  }
-
-  .header__bottom__burger__btn::before{
-    content: '';
-    display: block;
-    height: 2px;
-    border-radius: 2px;
-    width: 22px;
-    background-color: #000;
-    position: relative;
-    bottom: 8px;
-  }
 
   .header__adaptiv__menu{
     padding: 14px 0 32px;
+    overflow-y: scroll;
   }
 
   .header__bottom__burger__btn_a{
@@ -10230,6 +10648,36 @@ a {
     height: 100vh;
     transform: translateX(100%);
     transition: all 0.3s;
+    overflow-y: scroll;
+  }
+
+  .header__adaptiv__menu__catalog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .header__adaptiv__menu__catalog__item{
+    background-color: #F1F1F3;
+    border-radius: 5px;
+    padding: 35px 0 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__adaptiv__menu__catalog__item__img{
+    height: 130px;
+  }
+
+  .header__adaptiv__menu__catalog__item__txt{
+    margin-top: 9px;
+    height: 15px;
+  }
+
+  .header__adaptiv__menu__catalog__item__img{
+
   }
 
   .header__adaptiv__menu__nav__2_menu.active{
@@ -10328,6 +10776,9 @@ a {
 }
 
 @media (min-width: 768px) {
+  .text-21-1{
+    margin-top: 10px;
+  }
   .w-lightbox-content {
       height: 96vh;
       margin-top: 2vh;
@@ -10496,6 +10947,83 @@ a {
 }
 
 @media (max-width: 1024px) {
+  .implant_details_info__grid__img__div{
+
+  }
+  .contacts__grid{
+    gap: 24px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .frame-1388{
+    height: 741px;
+  }
+
+  .resmille__icon__white{
+    display: block;
+  }
+
+  .resmille__icon__dark{
+    display: none;
+  }
+
+  .frame-1502{
+    margin-top: 36px;
+    text-align: center;
+    max-width: 100%;
+    grid-row-gap: 16px;
+  }
+
+  .text-25.izm{
+    display: none;
+  }
+
+  .div-block-26{
+    flex-direction: column;
+    position: absolute;
+    bottom: 76px;
+  }
+
+  .image-11{
+    margin: 0 auto;
+  }
+
+  .div-block-27{
+    padding: 6px 5px;
+  }
+
+  .text-block-14{
+    color: white;
+  }
+  .btn-more-b1-copy{
+    position: absolute;
+    bottom: 17px;
+    font-size: 14px;
+    padding: 12px;
+  }
+  .s-wwww{
+    height: 741px;
+    background: linear-gradient(131deg, #8b8c90, #c8cccf 32%, #c8c8ca 76%, #d8d8d9 100%, #fff);
+  }
+
+  .s-wwww__background{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,212,255,0) 100%);
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    z-index: 50;
+    bottom: 0;
+  }
+
+  .btn-more-b1-copy.w-inline-block{
+
+  }
+
+  .frame-1550{
+    height: 741px;
+
+  }
   .frame-1426 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
@@ -10652,6 +11180,72 @@ a {
 }
 
 @media screen and (max-width: 991px) {
+  .implant_details_info__grid__img__div {
+    top: 130px;
+    right: 0;
+    justify-content: center;
+  }
+
+  .implant_details_info__grid__img__replace.active{
+    position: relative;
+    right: -24px;
+  }
+  .heading-1-1{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .brix---btn-primary-small-prods{
+    display: none;
+  }
+  .product-details{
+    margin: 0 -16px;
+  }
+  .prod-iamges{
+    object-fit: cover;
+  }
+  .product-details::after{
+    background-color: unset;
+  }
+  .implant_details_info{
+    padding-top: 71px;
+    padding-bottom: 0;
+  }
+  .resmile_details_info__grid__img{
+    grid-row-start: 1;
+  }
+  .resmile__grid__txt__adaptiv{
+    display: block;
+    height: 33px;
+  }
+  .resmile__grid__txt{
+    display: none;
+  }
+  .resmile_details_info__grid__img img{
+    margin: 0 auto;
+    display: block;
+  }
+  .frame-1504{
+    padding: 40px 0;
+  }
+  .frame-1506{
+    padding: 40px 0;
+  }
+  .modal_detail_info__wrap{
+    width: 100%;
+    margin-top: 32px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .modal-order-call__wrap{
+    width: 100%;
+    height: 60%;
+    bottom: 0;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .modal-order-call, .modal-order-call-succes, .modal_detail_info{
+    z-index: 1000;
+  }
   .wegwgreha{
     margin: 52px 0 67px;
   }
@@ -10960,18 +11554,16 @@ a {
       text-align: center;
   }
   .product-wrapper {
-      grid-column-gap: 40px;
       grid-row-gap: 40px;
       grid-template-rows: auto;
       grid-template-columns: 1fr;
       grid-auto-columns: 1fr;
-      padding-left: 20px;
-      padding-right: 20px;
       display: grid;
   }
   .s-product {
       padding-left: 0;
       padding-right: 0;
+      margin: 0 0% 55px 0;
   }
   .c1 {
       margin-top: 0;
@@ -11024,8 +11616,7 @@ a {
       padding-bottom: 24px;
   }
   .brix---accordion-items {
-      padding-left: 40px;
-      padding-right: 40px;
+      padding: 10px 0;
   }
   .dir-main {
       display: none;
@@ -11035,6 +11626,7 @@ a {
   }
   .product-details--2 {
       margin-right: 0;
+      margin-left: 0;
   }
   .right-info-menu {
       max-height: var(--rmenu-mob-1);
@@ -11241,9 +11833,6 @@ a {
       left: 0%;
       right: 0%;
   }
-  .v-kors {
-      font-family: Open Sans, sans-serif;
-  }
   .tab-pane-tab-1-2 {
       width: 100%;
       min-width: 100%;
@@ -11252,12 +11841,8 @@ a {
       flex-flow: column;
       justify-content: flex-start;
       align-items: center;
-      display: none;
-  }
-  .frame-133-1 {
-      padding-left: 12px;
-      padding-right: 12px;
-      display: none;
+      display: grid;
+      grid-template-columns: 1fr;
   }
   .frame-1504 {
       border-right-width: 0;
@@ -11268,8 +11853,13 @@ a {
   }
   .div-block-25 {
       grid-template-columns: 1fr;
-      padding-left: 12px;
-      padding-right: 12px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 7px;
+      padding-bottom: 19px;
+  }
+  .frame-1504:first-child{
+    border-top: 0;
   }
   .btn-rw {
       flex-flow: column;
@@ -11507,6 +12097,47 @@ a {
   }
 }
 
+@media (max-width: 1350px) {
+  .old-w{
+    right: 0;
+  }
+  .header__bottom__burger__btn_a{
+    display: block;
+    height: 2px;
+    border-radius: 2px;
+    width: 22px;
+    background-color: #000;
+  }
+  .header__bottom__burger__btn::after{
+    content: '';
+    display: block;
+    height: 2px;
+    border-radius: 2px;
+    width: 22px;
+    background-color: #000;
+    position: relative;
+    top: 6px;
+  }
+
+  .header__bottom__burger__btn::before{
+    content: '';
+    display: block;
+    height: 2px;
+    border-radius: 2px;
+    width: 22px;
+    background-color: #000;
+    position: relative;
+    bottom: 8px;
+  }
+  .header__bottom__wrap__nav{
+    display: none;
+  }
+
+  .header__bottom__wrap__center__number{
+    display: none;
+  }
+}
+
 @media (max-width: 840px){
   .container-3{
     width: 100%;
@@ -11515,6 +12146,104 @@ a {
 }
 
 @media (max-width: 768px) {
+  .reb-box{
+    width: 131px;
+  }
+
+  .rec-t{
+    width: 131px;
+  }
+  .header__bottom__wrap__right{
+    gap: 15px;
+  }
+  .contacts__grid {
+    gap: 54px;
+    grid-template-columns: 1fr;
+  }
+  .contacts__grid__left__map div{
+    height: 348px;
+    margin-bottom: 26px;
+  }
+  .implant_details_info__grid{
+    margin-bottom: 72px;
+  }
+  .implant_details_info__grid__title{
+    font-size: 21px;
+    line-height: 28px;
+    margin-top: 0;
+    margin-bottom: 14px;
+  }
+  .implant_details_info__grid__pre2{
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .implant_details_info__grid__txt__btn{
+    margin-top: 31px;
+  }
+  .frame-133-1.paf{
+    margin-top: 0;
+  }
+  .s-wl-12{
+    padding-top: 40px;
+    padding-bottom: 83px;
+  }
+  .text-20-12{
+    width: 100%;
+    font-size: 24px;
+    line-height: 50px;
+  }
+  .btn-rw{
+    margin-top: 10px;
+  }
+  .text-21-1{
+    text-align: start;
+    margin-top: 10px;
+  }
+  .text-19.pre{
+    display: none;
+  }
+  .text-20.rwg{
+    text-align: start;
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .frame-133-1{
+    align-items: flex-start;
+  }
+  .s-wl-1{
+    margin-bottom: 45px;
+  }
+  .image-11{
+    height: 56px;
+  }
+  .text-24{
+    font-size: 21px;
+    line-height: 29px;
+  }
+  .call__wrap__form__title{
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .modal-order-call__wrap{
+    height: auto;
+    display: block;
+    padding: 36px 16px 76px;
+  }
+  .call__wrap__form__p.izm{
+    display: none;
+  }
+  .modal-order-call__wrap__form{
+    margin-bottom: 0;
+  }
+  .modal_detail_info__wrap{
+    padding: 72px 16px;
+  }
+
+  .call__wrap__exit, .modal_detail__exit{
+    top: 20px;
+    right: 20px;
+  }
   .frame-1426 {
     grid-template-columns: 1fr 1fr;
   }
@@ -11718,7 +12447,7 @@ a {
   .galery_one__flex h4 {
     width: unset;
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 38px;
     margin: 0;
     margin-bottom: 8px;
@@ -12087,10 +12816,6 @@ a {
   .reb-box {
       min-width: 50%;
   }
-  .brix---btn-primary-ftr,
-  .btn-filter-b {
-      padding: 20px 32px;
-  }
   .brix---accordion-title {
       font-size: 20px;
       line-height: 30px;
@@ -12119,9 +12844,6 @@ a {
   .brix---btn-ff,
   .brix---btn-primary-small-prods {
       padding: 20px 32px;
-  }
-  .brix---accordion-items {
-      padding: 20px 24px;
   }
   .heading-2 {
       font-size: 21px;
@@ -12188,9 +12910,6 @@ a {
       padding: 12px 60px;
       font-size: 14px;
   }
-  .btn-more-b {
-      padding: 20px 32px;
-  }
   .spark-small-sub-paragraph {
       line-height: 1.3;
   }
@@ -12225,9 +12944,6 @@ a {
       padding-top: 88px;
       padding-bottom: 88px;
   }
-  .btn-more-b1 {
-      padding: 20px 32px;
-  }
   .btn-main-gs,
   .btn-main-ts {
       padding: 12px 60px;
@@ -12245,10 +12961,6 @@ a {
   }
   .frame-1506 {
       height: 100%;
-  }
-  .btn-more-b11,
-  .btn-more-b1-copy {
-      padding: 20px 32px;
   }
   .form-i-1 {
       margin-top: 50px;
@@ -12272,6 +12984,26 @@ a {
 }
 
 @media (max-width: 540px) {
+  .implant_details_info__grid__img img{
+    transform: scale(2);
+  }
+  .implant_details_info__grid__img__div{
+    top: -10px;
+  }
+
+  .implant_details_info__grid__img__div img{
+    width: calc(90px + 300 *(100vw - 320px) / 1000);
+  }
+  .contacts__grid__form__btn{
+    width: 100%;
+  }
+  .frame-1383 img{
+    height: 174px;
+  }
+  .implant_details_info__grid__txt__btn{
+    width: 100%;
+    text-align: center;
+  }
   .news__grid{
     grid-template-columns: 1fr;
   }
@@ -12297,6 +13029,16 @@ a {
 }
 
 @media screen and (max-width: 479px) {
+  .rec-a{
+    padding: 0 16px;
+  }
+  .rec-t{
+    margin-top: 9px;
+    margin-left: 0;
+  }
+  .rec-b{
+    height: 141px;
+  }
   .frame-1426 {
     grid-template-columns: 1fr;
   }
@@ -12583,8 +13325,6 @@ a {
   }
   .product-wrapper {
       grid-template-columns: 1fr;
-      padding-left: 14px;
-      padding-right: 14px;
   }
   .pproduct-lwtx {
       text-align: left;
@@ -12607,17 +13347,12 @@ a {
       padding-bottom: 18px;
   }
   .rec-a {
-      grid-column-gap: 6px;
+      grid-column-gap: 10px;
       grid-row-gap: 6px;
       grid-template-rows: auto auto;
       grid-template-columns: 1fr 1fr;
       grid-auto-columns: 1fr;
       display: flex;
-  }
-  .rec-b {
-      width: 250px;
-      height: 250px;
-      overflow: hidden;
   }
   .rec-img {
       object-fit: cover;
@@ -12633,11 +13368,6 @@ a {
   .brix---paragraph-l {
       font-size: 17px;
       line-height: 28px;
-  }
-  .brix---btn-primary-ftr,
-  .btn-filter-b {
-      padding-top: 18px;
-      padding-bottom: 18px;
   }
   .brix---paragraph-default-3 {
       font-size: 17px;
@@ -12673,9 +13403,6 @@ a {
       padding-top: 18px;
       padding-bottom: 18px;
   }
-  .brix---accordion-items {
-      padding: 18px 16px;
-  }
   .div-block-8 {
       margin-top: 10px;
       margin-left: 16px;
@@ -12700,14 +13427,12 @@ a {
   }
   .brix---btn-primary-small-in-slider {
       padding: 12px 60px;
-      font-family: Open Sans, sans-serif;
   }
   .form-btn-black {
       margin-top: 16px;
       margin-left: 40px;
       margin-right: 40px;
       padding: 12px 60px;
-      font-family: Open Sans, sans-serif;
   }
   .soc-news {
       grid-template-columns: repeat(auto-fit, 30px);
@@ -12733,8 +13458,6 @@ a {
   }
   .btn-more-b {
       width: 100%;
-      padding-top: 18px;
-      padding-bottom: 18px;
   }
   .spark-bold-heading {
       line-height: 1.3;
@@ -12829,7 +13552,6 @@ a {
       margin-left: 40px;
       margin-right: 40px;
       padding: 12px 60px;
-      font-family: Open Sans, sans-serif;
   }
 }
 
