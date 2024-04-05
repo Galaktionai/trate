@@ -2,6 +2,7 @@ $(document).ready(function() {
   $(".header__bottom__burger__btn_a, .header__adaptiv__menu__exit_btn__a").click(function() {
     $(".header__adaptiv").toggleClass("active");      
     $("body").toggleClass("dont-scroll"); 
+    $("header").toggleClass("active");
   })
 
   let header = document.querySelector('.header__bottom');
@@ -136,6 +137,17 @@ $(document).ready(function() {
     },
   });
 
+  var swiper = new Swiper(".mySwiper", {
+    direction: "vertical",
+    slidesPerView: 1,
+    spaceBetween: 30,
+    mousewheel: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
 
   $('.keys__filter__form__select, .feedback__green__form__select, .contacts__grid__form__select').niceSelect();
 
@@ -216,5 +228,16 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 });
+
+
+
+
+
+
+
+
+
+
+
 
 
