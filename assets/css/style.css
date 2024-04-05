@@ -4609,6 +4609,7 @@ a {
   flex-flow: column;
   justify-content: space-between;
   display: flex;
+  gap: 4px;
 }
 
 .tdate {
@@ -10488,14 +10489,6 @@ a {
   .s-rootts {
       background-color: #f1f1f3;
   }
-  .con-news-main {
-      grid-column-gap: 0px;
-      grid-row-gap: 0px;
-      grid-template-rows: auto auto;
-      grid-template-columns: 2.75fr 1fr;
-      grid-auto-columns: 1fr;
-      display: grid;
-  }
   .text-block-12 {
       font-size: 26px;
       font-weight: 600;
@@ -12265,6 +12258,17 @@ a {
 }
 
 @media (max-width: 768px) {
+  .banner_tipovoy__text{
+    height: auto;
+  }
+  .banner_centr_study__txt_title__detail{
+    font-size: 21px;
+    line-height: 28px;
+  }
+  .banner_tipovoy__img img{
+    width: 100%;
+    position: relative;
+  }
   .boxes{
     padding: 10px 0 59px;
   }
@@ -13136,6 +13140,14 @@ a {
 }
 
 @media (max-width: 540px) {
+  .brix---btn-primary-small-inh.potato{
+    display: block;
+    text-align: center;
+  }
+  .grey__btn{
+    display: block;
+    text-align: center;
+  }
   .implant_details_info__grid__img img{
     transform: scale(2);
   }
