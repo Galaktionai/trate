@@ -80,6 +80,12 @@ $(document).ready(function() {
       nextEl: '.swiper-button-next-gala',
       prevEl: '.swiper-button-prev-gala',
     },
+    breakpoints: {
+      1179: {
+        slidesPerGroup: 6,
+      }
+
+    }
   });
   
   var swiper = new Swiper(".autorsSwiper", {
