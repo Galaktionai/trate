@@ -5327,7 +5327,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 37px 190px;
+  padding: 37px 0;
   text-decoration: none;
   display: flex;
 }
@@ -5339,6 +5339,7 @@ a {
   align-items: center;
   text-decoration: none;
   display: flex;
+  max-width: 958px;
 }
 
 .frame-1497 {
@@ -5457,7 +5458,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 37px 190px;
+  padding: 37px 0;
   text-decoration: none;
   display: flex;
 }
