@@ -5265,8 +5265,8 @@ a {
 }
 
 .s-wl {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 131px;
+  margin-bottom: 153px;
 }
 
 .frame-1335 {
@@ -9075,6 +9075,16 @@ a {
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 19px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  line-clamp: 7;
+  box-orient: vertical;
 }
 
 .read_other__item__txt span{
@@ -9214,7 +9224,7 @@ a {
 }
 
 .events__item__a{
-  margin-top: 5px;
+  margin-top: 10px;
   display: flex;
   gap: 8px;
   text-decoration: none;
@@ -10087,10 +10097,19 @@ a {
   background-color: #87ccea;
 }
 
-
+.container-3.pwrefkv{
+  margin-top: 145px;
+}
 
 .presenter {
   scroll-snap-align: center;
+}
+
+.keys_detail__subskribe.adaptive{
+  display: none;
+}
+.keys_detail__subskribe.desctop{
+  display: block;
 }
 
 
@@ -10775,6 +10794,20 @@ a {
 }
 
 @media (max-width: 1024px) {
+  .container-3.pwrefkv{
+    margin-top: 70px;
+    margin-bottom: 63px;
+  }
+  .keys_detail__subskribe.adaptive{
+    display: block;
+  }
+  .keys_detail__subskribe.desctop{
+    display: none;
+  }
+  .keys_detail__subskribe{
+    padding: 63px 16px 96px;
+    margin-bottom: 11px;
+  }
   .implant_details_info__grid__img__div{
 
   }
@@ -11581,7 +11614,6 @@ a {
   .frame-1332 {
       padding-left: 0;
   }
-  .frame-1543,
   .frame-1336 {
       padding-left: 20px;
       padding-right: 20px;
@@ -12211,6 +12243,29 @@ a {
 }
 
 @media (max-width: 768px) {
+  .read_other__grid{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+  .read_other__grid__news{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    max-width: 100%;
+  }
+  .read_other__item__txt{
+    width: 285px;
+  }
+  .news__item__txt{
+    width: 285px;
+  }
+  .rgrwerh{
+    display: none;
+  }
+  .s-wl{
+    margin-top: 102px;
+    margin-bottom: 73px;
+  }
   .reb-box{
     width: 131px;
   }
@@ -13502,12 +13557,6 @@ a {
   .soc-news {
       grid-template-columns: repeat(auto-fit, 30px);
   }
-  .btn-main-g,
-  .btn-main-t {
-      width: 100%;
-      padding-top: 18px;
-      padding-bottom: 18px;
-  }
   .frame-1543 {
       grid-row-gap: 24px;
   }
@@ -13633,7 +13682,7 @@ a {
   }
 
   .section_study__item__img img{
-    height: 425px;
+    height: 207px;
   }
 
   .banner_tipovoy__img img{
