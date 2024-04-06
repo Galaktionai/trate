@@ -167,26 +167,20 @@ $(document).ready(function() {
     $("body").removeClass("dont-scroll"); 
   })
 
-  // let eventsFixed = document.querySelector('.frame-1244');
+  var accBtn = document.getElementsByClassName("catalog__filter__acardion__btn");
+  var accInt;
 
-  // window.addEventListener('scroll', function () {
-  //   let scrollDistance = window.scrollY;
-  //   if (scrollDistance >= 1250) {
-  //     eventsFixed.classList.add("fixed");
-  //   } else {
-  //     eventsFixed.classList.remove("fixed");
-  //   }
-  // })
-
-  // $(".implant_details_info__grid__txt__li").click(function() {
-  //   $(this).toggleClass("active");
-
-  //   let active = document.querySelectorAll('.implant_details_info__grid__txt__li');
-  //   if(this.classList.contains('active')){
-  //     active.removeClass('active');
-  //     console.log('ewgwg')
-  //   }
-  // })
+  for (accInt = 0; accInt < accBtn.length; accInt++) {
+    accBtn[accInt].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var panel = this.nextElementSibling;
+      if (panel.style.maxHeight){
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      } 
+    });
+  }
 });
 
 document.addEventListener("DOMContentLoaded", function() {
